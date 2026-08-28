@@ -63,7 +63,7 @@ Po synchronizaci uvidíte stejný termín v Apple Kalendáři a číslo v poli *
 
 ## 3. Výběr správného kalendáře ve Zkratce
 
-Zkratka je nastavená na kalendář člověka, který ji vytvořil. **Než ji poprvé použijete, musíte v ní vybrat svůj vlastní kalendář** — jinak žádné termíny nenajde.
+Když jsem zkratku vytvářel, nastavil jsem v ní svůj vlastní kalendář. Než ji poprvé použijete, změňte ho proto na svůj kalendář — jinak vaše termíny nenajde.
 
 ![Knihovna zkratek s otevřenou nabídkou a volbou Upravit](docs/images/visual-guide/10-zkratka-upravit.jpg)
 
