@@ -82,7 +82,9 @@ If you book your clients in **Google Calendar**, you do **not** have to move any
 
 ## STEP 4 — Write the client's phone number into the appointment
 
-The phone number goes into the **Notes** field of the appointment.
+The shortcut reads the phone number from the appointment's **Notes** in Apple Calendar. Where you type it depends on which app you book your clients in.
+
+**If you book in the Calendar app on your iPhone**
 
 1. Open the appointment in your calendar.
 2. Tap **Edit**.
@@ -90,7 +92,26 @@ The phone number goes into the **Notes** field of the appointment.
 4. Type the client's phone number.
 5. Save the appointment.
 
-Other text may be in the Notes as well, before or after the number. For example:
+**If you book in Google Calendar**
+
+Google Calendar has no field called Notes. The same field is called **Description** there — on an empty appointment it appears as **Add description**.
+
+1. Open the appointment in Google Calendar.
+2. Tap **Edit**.
+3. Find **Description** (or **Add description**).
+4. Type the client's phone number.
+5. Save the appointment.
+
+Once the calendar has synced to your iPhone, what you typed in the Description shows up as the **Notes** of that appointment in Apple Calendar — and that is where the shortcut reads it.
+
+| Where you type the number | What that field is called |
+|---|---|
+| Google Calendar | **Description** / **Add description** |
+| Apple Calendar | **Notes** |
+
+It is the same text in both apps. You do not have to type it twice.
+
+Other text may be in that field as well, before or after the number. For example:
 
 ```
 Client wants the sides shorter.
