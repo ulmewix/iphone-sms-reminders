@@ -6,9 +6,9 @@ Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpr
 
 ---
 
-## [Install the Shortcut](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
+## [Install the English Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)
 
-## [Nainstalovat zkratku](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
+## [Nainstalovat českou zkratku](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
 
 ---
 

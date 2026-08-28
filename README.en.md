@@ -19,7 +19,7 @@ You write your client's phone number into the appointment in your calendar. Ever
 
 ---
 
-## ➜ [Install the Shortcut](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
+## ➜ [Install the Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)
 
 Open that link **on your iPhone**. Then follow the six steps below — they take about ten minutes.
 
@@ -32,8 +32,8 @@ Open that link **on your iPhone**. Then follow the six steps below — they take
 
 ## STEP 1 — Install the Shortcut
 
-1. On your iPhone, tap this link: **[Install the Shortcut](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)**
-2. The **Shortcuts** app opens and shows the shortcut.
+1. On your iPhone, tap this link: **[Install the Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)**
+2. The **Shortcuts** app opens and shows the shortcut, named **SMS - Reminder - eng**.
 3. Tap **Add Shortcut** at the bottom.
 4. That's it. The shortcut is now in your phone.
 
@@ -76,7 +76,7 @@ If you book your clients in **Google Calendar**, you do **not** have to move any
 7. Leave everything else in that line alone. It should still say **Tomorrow**.
 8. Tap **Done** in the top corner to save.
 
-> **Optional — the message text.** The message the shortcut sends is written in Czech. If you want different wording, scroll down in the same editing screen to the line containing the message and tap the text to change it. Keep the grey time bubble in place — that is what fills in the appointment time.
+> **Optional — the message text.** The shortcut already sends an English reminder. You may customise the wording if you wish: scroll down in the same editing screen to the line containing the message and tap the text to change it. Keep the grey time bubble in place, because that is what inserts the appointment time.
 
 ---
 
@@ -115,104 +115,42 @@ Other text may be in that field as well, before or after the number. For example
 
 ```
 Client wants the sides shorter.
-+420 123 456 789
-```
-
-The safest way to write the number is with the country code and spaces:
-
-```
-+420 123 456 789
-```
-
-> **An appointment with no phone number in the Notes is simply skipped.** No message is sent for it, and nothing goes wrong. You can keep your private appointments in the same calendar.
->
-> As it comes, the shortcut recognises **Czech** nine-digit phone numbers only. If your clients have numbers from another country, read the next part before you go on.
-
-### Using this outside the Czech Republic
-
-**The shortcut you downloaded is set up for Czech telephone numbers.** That is how it was built, and it is the one thing an international user has to change. It is a single change, and you only make it once.
-
-Inside the shortcut there is one line that looks through the appointment Notes for a phone number. It looks for numbers in the Czech format, using this text:
-
-```
-(?:\+420\s*)?\d{3}\s*\d{3}\s*\d{3}
-```
-
-In ordinary language:
-
-- `+420` is the country code for the Czech Republic.
-- Czech numbers are nine digits, usually written as three groups of three — and that is exactly the shape this line expects.
-- **Swapping `+420` for your own country code is not enough.** Countries use different lengths and different groupings, so a number from the United States or the United Kingdom would still not be found.
-
-You do not need to understand that text. You only need to replace it with the one below.
-
-### The international version
-
-Replace the Czech text with this one:
-
-```
-\+[1-9](?:\s*\d){6,14}
-```
-
-With this version:
-
-- every client number must be stored **with its international country code**,
-- the number must **start with `+`**,
-- **spaces are allowed** anywhere between the digits,
-- it finds numbers with **7 to 15 digits** in total,
-- 15 digits is the longest a telephone number can be internationally (the E.164 standard), so this covers the practical range.
-
-> This is a simple, general search. It finds a sensibly written international number — it does **not** check that the number really exists or that it matches your country's numbering rules. Always check the number you typed is correct.
-
-### How to make the change on your iPhone
-
-1. Open the **Shortcuts** app.
-2. Find the SMS reminder shortcut you installed in Step 1.
-3. Tap the **three dots (⋯)** on it to open it for editing.
-4. Scroll down until you find the action that searches the appointment Notes for the telephone number. In the shortcut as distributed it is shown as **Najít shodu se vzorem** — in English, **Match Text**.
-5. Inside that action you will see the current text:
-
-   ```
-   (?:\+420\s*)?\d{3}\s*\d{3}\s*\d{3}
-   ```
-
-6. Delete all of it and put this in its place:
-
-   ```
-   \+[1-9](?:\s*\d){6,14}
-   ```
-
-7. **Do not change any of the other actions.**
-8. Tap **Done** to close and save the shortcut.
-9. From now on, type your clients' numbers in the full international format, beginning with `+` and the country code.
-10. Run one test by hand (Step 6) before you rely on it.
-
-### Examples you can copy
-
-United States:
-
-```
-+1 202 555 0100
-```
-
-United Kingdom:
-
-```
 +44 7700 900123
 ```
 
-These are **examples only** — they are reserved numbers used for demonstrations and they do not reach anybody. You must type your client's real number.
+### How to write the phone number
 
-Spaces are fine, and you can group the digits however is comfortable. Stick to `+`, the country code and digits: do **not** use brackets or hyphens, because the simple search above does not expect them.
+The shortcut looks for a number in **full international format**. Write every client's number that way and it will be found.
 
-Type the international number into the same field you already use, as described above in this step:
+- Always start with **`+`**.
+- Include the **country code** straight after the `+`, then the rest of the number.
+- **Spaces between the digits are fine** — group them however is comfortable.
+- After the `+`, use **digits and spaces only**.
+- Do **not** use brackets, parentheses, hyphens or dots.
+- The number may hold **7 to 15 digits** in total (15 is the international maximum, the E.164 standard).
+
+Examples you can copy:
+
+```
++1 202 555 0100
++44 7700 900123
++420 123 456 789
+```
+
+These are **examples only** — reserved numbers used for demonstrations, which do not reach anybody. You must type your client's real number.
+
+> The shortcut finds a sensibly written international number. It does **not** check that the number really exists, or that it follows your country's numbering rules. Always check the number you typed is correct.
+
+**Keep only one phone number in each appointment.** If the text contains more than one matching number, the shortcut uses the first one it finds.
+
+> **An appointment with no recognised phone number in the Notes is simply skipped.** No message is sent for it, and nothing goes wrong. You can keep your private appointments in the same calendar.
+
+Type the number into the same field you already use, as described above in this step:
 
 | Where you book | Field | What to type |
 |---|---|---|
 | Google Calendar | **Description** / **Add description** | `+44 7700 900123` |
 | Apple Calendar | **Notes** | `+44 7700 900123` |
-
-> **One last thing.** Changing this phone-number line does **not** change the message your clients receive. The shortcut as distributed sends a message written in **Czech**. If you want it in your own language you have to rewrite the message text separately — see the note at the end of Step 3.
 
 ---
 
@@ -352,21 +290,25 @@ For the appointment it is currently working on, it reads the **Notes** field.
 It searches that text for a phone number using this pattern:
 
 ```
-(?:\+420\s*)?\d{3}\s*\d{3}\s*\d{3}
+\+[1-9](?:\s*\d){6,14}
 ```
 
-In plain terms, it matches a Czech nine-digit number written as three groups of three digits, with spaces between the groups allowed but not required, and an optional `+420` in front.
+In plain terms, it matches a number written in international format: a leading `+`, then a country code and the rest of the digits, with spaces between the digits allowed but not required.
+
+- The **`+` and the country code are required**. A number written without them is not matched.
+- **Spaces are optional** anywhere between the digits.
+- It accepts **7 to 15 digits** in total — 15 is the longest a telephone number can be internationally (the E.164 standard).
+- It does **not** apply national numbering rules, and it does not confirm that the number exists.
+- **Parentheses and hyphens are not supported** by this simple pattern.
 
 All of these are recognised:
 
 ```
++1 202 555 0100
++44 7700 900123
 +420 123 456 789
-+420123456789
-123 456 789
-123456789
++61412345678
 ```
-
-Because the pattern is built for Czech numbers, foreign numbers in another format may not be matched.
 
 ### E. Skip events with no phone number
 
@@ -386,23 +328,18 @@ It takes the appointment's **start date and time** and formats it so it can be p
 
 ### H. Build the reminder text
 
-The message currently in the shared shortcut is in Czech:
-
-```
-Dobrý den, připomínám Vám Váš termín zítra v [čas]. Pokud se nemůžete dostavit,
-dejte mi prosím vědět. Děkuji.
-```
-
-`[čas]` is the Czech word for "time". It is not typed in by hand — it is replaced automatically with the formatted start time of that appointment.
-
-You can rewrite this message to say whatever you want. An English version might read:
+The message currently in the shared shortcut is:
 
 ```
 Hello, this is a reminder of your appointment tomorrow at [time]. If you are
 unable to attend, please let me know. Thank you.
 ```
 
-> The shortcut does **not** translate the message by itself. It sends whatever text it contains, in whatever language that text is written, to every recipient. The version distributed here contains the Czech text.
+`[time]` is not typed in by hand — it is the variable the shortcut replaces with the formatted start time of that appointment.
+
+You can rewrite this message to say whatever you want. Keep the time variable in place if you want the appointment time to appear in the message.
+
+> The shortcut does **not** translate the message by itself. It sends whatever text it contains, in whatever language that text is written, to every recipient.
 
 ### I. Send the message
 
@@ -422,7 +359,7 @@ The shortcut then goes back and repeats the same steps for the next appointment,
 | Message text | Yes, if you want. | |
 | The time bubble in the message | | Yes |
 | Day filter "Tomorrow" | | Yes |
-| Phone number search | Only for foreign numbers. | |
+| Phone number search | Only if you deliberately need a different number format. | Yes, for ordinary international numbers written with `+` and a country code. |
 | The 50-event limit | Rarely needed. | |
 
 ---
@@ -437,8 +374,9 @@ The shortcut then goes back and repeats the same steps for the next appointment,
 
 **One client did not get a message**
 
-- Open that appointment and check the phone number really is in the **Notes**, not in the title.
-- Write the number as `+420 123 456 789` and try again.
+- Open that appointment and check the phone number really is in the **Notes** — the **Description** if you book in Google Calendar — and not in the title.
+- Write the number in full international format, starting with `+` and the country code, for example `+44 7700 900123`, and try again.
+- Use digits and spaces only after the `+`. Brackets, parentheses, hyphens and dots are not recognised.
 
 **The shortcut finds no appointments**
 
