@@ -22,6 +22,8 @@ Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpr
 
 [Obrázkový návod →](README.images.cs.md)
 
+![SMS Reminder shortcut workflow overview](docs/images/visual-guide/sms-reminder-shortcut-overall.png)
+
 ---
 
 Made for hairdressers, barbers, nail technicians, beauticians and other small businesses.
