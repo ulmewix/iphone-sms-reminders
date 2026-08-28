@@ -29,3 +29,7 @@ Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpr
 Made for hairdressers, barbers, nail technicians, beauticians and other small businesses.
 
 Určeno pro kadeřnice, holiče, nehtaře, kosmetičky a další malé provozovny.
+
+Free to use, including in your own business. Sharing is allowed under the [licence](LICENSE), but selling the Shortcut itself is not.
+
+Zdarma k použití, i ve vlastním podnikání. Sdílet lze podle [licence](LICENSE), prodávat samotnou zkratku ne.

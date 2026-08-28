@@ -451,4 +451,30 @@ Not affiliated with, authorised by or endorsed by Apple Inc. Apple, iPhone, iClo
 
 ## Licence
 
-The contents of this repository are released under the [MIT Licence](LICENSE). That covers this repository's text only — it makes no claim over the Apple Shortcut hosted on iCloud, the Shortcuts app, or any other Apple software or service.
+This project is **source-available**, not open source. It is released under the [MIT License with the “Commons Clause” License Condition v1.0](LICENSE).
+
+**You may:**
+
+- use the Shortcut free of charge;
+- use it in your own business — for example a hairdresser, barber shop, nail or beauty salon sending reminders to your own clients;
+- modify it for your own needs;
+- share copies free of charge, as long as you keep to the licence and pass on the required notices (both the MIT notice and the Commons Clause notice).
+
+**You may not:**
+
+- sell the Shortcut itself;
+- put access to the Shortcut behind a paywall;
+- repackage substantially the same Shortcut and sell it as your own product;
+- charge for a product or service whose value derives, entirely or substantially, from providing this Shortcut itself — that is what the Commons Clause defines as "Sell".
+
+In one line: **using the Shortcut in a commercial business is allowed; selling the Shortcut itself is not.**
+
+### What the licence covers
+
+It covers the project-authored Shortcut configuration and this project's documentation and assets, to the extent they are copyrightable and owned by the licensor. Apple software, Apple user-interface elements, Apple trademarks, Apple icons, iOS, Shortcuts, Calendar and other Apple-owned material remain the property of their respective owners. This project is independent and is not affiliated with, sponsored by or endorsed by Apple Inc.
+
+The licence is a grant of copyright permissions. It is not copy protection: Apple's own iCloud sharing lets anyone with the link obtain and copy a Shortcut, and nothing here changes that.
+
+Earlier revisions that were distributed under the MIT License remain subject to the terms under which they were distributed. The current version is distributed under MIT + Commons Clause.
+
+This section is a plain-English summary for convenience only. The [LICENSE](LICENSE) file is the text that controls.

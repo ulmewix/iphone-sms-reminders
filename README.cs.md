@@ -362,4 +362,30 @@ Není spojen se společností Apple Inc., není jí schválen ani podporován. A
 
 ## Licence
 
-Obsah tohoto repozitáře je uvolněn pod [licencí MIT](LICENSE). Vztahuje se pouze na texty v tomto repozitáři — nečiní si žádný nárok na Apple Zkratku uloženou na iCloudu, na aplikaci Zkratky ani na jiný software či službu společnosti Apple.
+Projekt je **source-available** (se zveřejněným zdrojem), nikoli open source. Je uvolněn pod [licencí MIT s podmínkou „Commons Clause“ License Condition v1.0](LICENSE).
+
+**Používat zkratku při vlastním podnikání můžete. Prodávat samotnou zkratku nesmíte.**
+
+**JE POVOLENO:**
+
+- používat zkratku zdarma;
+- používat ji ve vlastním podnikání, například v kadeřnictví, barber shopu, nehtovém nebo kosmetickém salonu;
+- upravit si ji pro vlastní potřebu;
+- zdarma ji dále sdílet při dodržení licenčních podmínek a zachování požadovaných oznámení (jak textu licence MIT, tak oznámení Commons Clause).
+
+**NENÍ POVOLENO:**
+
+- prodávat samotnou zkratku;
+- dát přístup ke zkratce za paywall;
+- přebalit v zásadě stejnou zkratku a prodávat ji jako vlastní produkt;
+- vybírat peníze za produkt nebo službu, jejíž podstatná hodnota spočívá v poskytování této zkratky — přesně to je ve smyslu Commons Clause definováno jako „Sell“ (prodej).
+
+### Na co se licence vztahuje
+
+Vztahuje se na konfiguraci zkratky vytvořenou tímto projektem a na dokumentaci a materiály tohoto projektu, a to v rozsahu, v jakém jsou chráněny autorským právem a patří poskytovateli licence. Software společnosti Apple, prvky uživatelského rozhraní Applu, ochranné známky a ikony Applu, iOS, Zkratky, Kalendář a další materiály vlastněné Applem zůstávají majetkem svých vlastníků. Projekt je nezávislý a není spojen se společností Apple Inc., není jí sponzorován ani podporován.
+
+Licence uděluje oprávnění podle autorského práva. Není to technická ochrana proti kopírování: sdílení Zkratek přes iCloud od Applu záměrně umožňuje každému, kdo má odkaz, zkratku získat a zkopírovat, a na tom licence nic nemění.
+
+Starší revize, které byly šířeny pod licencí MIT, se nadále řídí podmínkami, za kterých byly šířeny. Současná verze je šířena pod licencí MIT + Commons Clause.
+
+Toto shrnutí je jen zjednodušené vysvětlení v češtině. Závazný je text souboru [LICENSE](LICENSE).
