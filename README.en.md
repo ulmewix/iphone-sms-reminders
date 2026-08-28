@@ -126,7 +126,93 @@ The safest way to write the number is with the country code and spaces:
 
 > **An appointment with no phone number in the Notes is simply skipped.** No message is sent for it, and nothing goes wrong. You can keep your private appointments in the same calendar.
 >
-> The shortcut currently recognises Czech nine-digit phone numbers, with or without +420. Foreign numbers may not be recognised.
+> As it comes, the shortcut recognises **Czech** nine-digit phone numbers only. If your clients have numbers from another country, read the next part before you go on.
+
+### Using this outside the Czech Republic
+
+**The shortcut you downloaded is set up for Czech telephone numbers.** That is how it was built, and it is the one thing an international user has to change. It is a single change, and you only make it once.
+
+Inside the shortcut there is one line that looks through the appointment Notes for a phone number. It looks for numbers in the Czech format, using this text:
+
+```
+(?:\+420\s*)?\d{3}\s*\d{3}\s*\d{3}
+```
+
+In ordinary language:
+
+- `+420` is the country code for the Czech Republic.
+- Czech numbers are nine digits, usually written as three groups of three — and that is exactly the shape this line expects.
+- **Swapping `+420` for your own country code is not enough.** Countries use different lengths and different groupings, so a number from the United States or the United Kingdom would still not be found.
+
+You do not need to understand that text. You only need to replace it with the one below.
+
+### The international version
+
+Replace the Czech text with this one:
+
+```
+\+[1-9](?:\s*\d){6,14}
+```
+
+With this version:
+
+- every client number must be stored **with its international country code**,
+- the number must **start with `+`**,
+- **spaces are allowed** anywhere between the digits,
+- it finds numbers with **7 to 15 digits** in total,
+- 15 digits is the longest a telephone number can be internationally (the E.164 standard), so this covers the practical range.
+
+> This is a simple, general search. It finds a sensibly written international number — it does **not** check that the number really exists or that it matches your country's numbering rules. Always check the number you typed is correct.
+
+### How to make the change on your iPhone
+
+1. Open the **Shortcuts** app.
+2. Find the SMS reminder shortcut you installed in Step 1.
+3. Tap the **three dots (⋯)** on it to open it for editing.
+4. Scroll down until you find the action that searches the appointment Notes for the telephone number. In the shortcut as distributed it is shown as **Najít shodu se vzorem** — in English, **Match Text**.
+5. Inside that action you will see the current text:
+
+   ```
+   (?:\+420\s*)?\d{3}\s*\d{3}\s*\d{3}
+   ```
+
+6. Delete all of it and put this in its place:
+
+   ```
+   \+[1-9](?:\s*\d){6,14}
+   ```
+
+7. **Do not change any of the other actions.**
+8. Tap **Done** to close and save the shortcut.
+9. From now on, type your clients' numbers in the full international format, beginning with `+` and the country code.
+10. Run one test by hand (Step 6) before you rely on it.
+
+### Examples you can copy
+
+United States:
+
+```
++1 202 555 0100
+```
+
+United Kingdom:
+
+```
++44 7700 900123
+```
+
+These are **examples only** — they are reserved numbers used for demonstrations and they do not reach anybody. You must type your client's real number.
+
+Spaces are fine, and you can group the digits however is comfortable. Stick to `+`, the country code and digits: do **not** use brackets or hyphens, because the simple search above does not expect them.
+
+Type the international number into the same field you already use, as described above in this step:
+
+| Where you book | Field | What to type |
+|---|---|---|
+| Google Calendar | **Description** / **Add description** | `+44 7700 900123` |
+| Apple Calendar | **Notes** | `+44 7700 900123` |
+
+> **One last thing.** Changing this phone-number line does **not** change the message your clients receive. The shortcut as distributed sends a message written in **Czech**. If you want it in your own language you have to rewrite the message text separately — see the note at the end of Step 3.
 
 ---
 
