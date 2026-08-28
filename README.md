@@ -30,6 +30,44 @@ Made for hairdressers, barbers, nail technicians, beauticians and other small bu
 
 Určeno pro kadeřnice, holiče, nehtaře, kosmetičky a další malé provozovny.
 
-Free to use, including in your own business. Sharing is allowed under the [licence](LICENSE), but selling the Shortcut itself is not.
+---
 
-Zdarma k použití, i ve vlastním podnikání. Sdílet lze podle [licence](LICENSE), prodávat samotnou zkratku ne.
+## Licence
+
+### 🇬🇧 English
+
+**Allowed:**
+
+- use the Shortcut for free;
+- use it in your own business;
+- modify it for your own needs;
+- share it free of charge under the licence terms.
+
+**Not allowed:**
+
+- sell the Shortcut itself;
+- put access to it behind a paywall;
+- repackage substantially the same Shortcut and sell it as your own product.
+
+**Using the Shortcut in your business is allowed. Selling the Shortcut itself is not.**
+
+Full terms in [LICENSE](LICENSE), longer explanation in [README.en.md](README.en.md).
+
+### 🇨🇿 Česky
+
+**JE POVOLENO:**
+
+- používat zkratku zdarma;
+- používat ji ve vlastním podnikání;
+- upravit si ji pro vlastní potřebu;
+- zdarma ji dále sdílet při dodržení licenčních podmínek.
+
+**NENÍ POVOLENO:**
+
+- prodávat samotnou zkratku;
+- dát přístup ke zkratce za paywall;
+- přebalit v zásadě stejnou zkratku a prodávat ji jako vlastní produkt.
+
+**Používat zkratku při vlastním podnikání můžete. Prodávat samotnou zkratku nesmíte.**
+
+Úplné podmínky jsou v [LICENSE](LICENSE), podrobnější vysvětlení v [README.cs.md](README.cs.md).
