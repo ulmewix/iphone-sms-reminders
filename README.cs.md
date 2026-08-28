@@ -23,6 +23,8 @@ Do události v kalendáři napíšete telefon klienta. Váš iPhone se každý d
 
 Odkaz otevřete **na iPhonu**. Potom projděte šest kroků níže — zabere to asi deset minut.
 
+> Raději obrázky? Podívejte se na [obrázkový návod](README.images.cs.md).
+
 ---
 ---
 

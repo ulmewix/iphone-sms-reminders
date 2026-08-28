@@ -20,6 +20,8 @@ Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpr
 
 [Otevřít český návod →](README.cs.md)
 
+[Obrázkový návod →](README.images.cs.md)
+
 ---
 
 Made for hairdressers, barbers, nail technicians, beauticians and other small businesses.
