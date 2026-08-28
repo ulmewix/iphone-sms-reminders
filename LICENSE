@@ -1,3 +1,18 @@
+“Commons Clause” License Condition v1.0
+
+The Software is provided to you by the Licensor under the License, as defined below, subject to the following condition.
+
+Without limiting other conditions in the License, the grant of rights under the License will not include, and the License does not grant to you, the right to Sell the Software.
+
+For purposes of the foregoing, “Sell” means practicing any or all of the rights granted to you under the License to provide to third parties, for a fee or other consideration (including without limitation fees for hosting or consulting/ support services related to the Software), a product or service whose value derives, entirely or substantially, from the functionality of the Software. Any license notice or attribution required by the License must also include this Commons Clause License Condition notice.
+
+Software: iPhone SMS Reminders / SMS - Reminder Shortcut and associated documentation
+
+License: MIT License
+
+Licensor: ulmewix (https://github.com/ulmewix) and the iphone-sms-reminders contributors
+
+
 MIT License
 
 Copyright (c) 2026 iphone-sms-reminders contributors
@@ -24,10 +39,24 @@ SOFTWARE.
 
 Note on scope
 
-This licence applies to the contents of this repository (documentation and
-guides) only. It does not apply to, and asserts no ownership over, the Apple
-Shortcut hosted on Apple's iCloud servers, the Shortcuts app, or any other
-Apple software or service, which remain subject to their own terms.
+The two texts above are not two separate licences. The Software is licensed
+under the MIT License, subject to the “Commons Clause” License Condition v1.0
+printed at the top of this file. Anyone receiving the Software must pass on
+both notices together.
 
-Apple, iPhone, iCloud, Calendar, Shortcuts and Messages are trademarks of
-Apple Inc. This project is not affiliated with or endorsed by Apple Inc.
+This licensing applies only to material in which the Licensor holds the
+relevant rights: the project-authored Shortcut configuration and the
+documentation, guides and assets in this repository, to the extent they are
+copyrightable and owned by the Licensor.
+
+It does not apply to, and asserts no ownership over, Apple software, Apple
+user-interface elements, Apple trademarks, Apple icons, iOS, the Shortcuts
+app, Calendar, Messages or any other Apple-owned material, which remain the
+property of their respective owners. Apple, iPhone, iCloud, Calendar,
+Shortcuts and Messages are trademarks of Apple Inc. This project is
+independent and is not affiliated with, sponsored by or endorsed by Apple Inc.
+
+Earlier revisions that were distributed under the MIT License remain subject
+to the terms under which they were distributed. The current version is
+distributed under the MIT License with the “Commons Clause” License Condition
+v1.0.
