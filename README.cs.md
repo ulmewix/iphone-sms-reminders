@@ -159,18 +159,47 @@ Samotná instalace zkratky **nezajistí** její spouštění. Denní čas musít
 
 Zkratka posílá připomínky vždy na **zítřejší** termíny. Zvolte tedy dnešní čas, kdy se klientům hodí zprávu o zítřku dostat — obvykle se osvědčí brzké odpoledne nebo podvečer. **14:30** je jen příklad.
 
+> **Pozor na dvojí odeslání.** Zkratka si nikam nepoznamenává, komu už připomínku poslala.
+>
+> - Vytvořte pro ni **jedinou** denní automatizaci.
+> - Když už automatizace ten den proběhla, **nespouštějte zkratku znovu ručně** — ledaže o druhou zprávu opravdu stojíte.
+> - Každé další spuštění může rozeslat připomínky na tytéž zítřejší termíny znovu.
+
 ---
 
 ## KROK 6 — Otestujte to
 
-Než necháte zkratku psát klientům, jednou si ji vyzkoušejte na sobě.
+Než necháte zkratku psát klientům, jednou si ji vyzkoušejte na sobě. Nejdřív si ale přečtěte obě varování níže — teprve potom testujte.
 
-1. Vytvořte si v kalendáři testovací termín na **zítřek**, a to v kalendáři vybraném v kroku 3.
-2. Do jeho **Poznámek** vložte telefonní číslo, které si můžete zkontrolovat — své druhé číslo, nebo někoho z rodiny, kdo o testu ví.
-3. Otevřete aplikaci **Zkratky** a klepnutím na zkratku ji jednou spusťte ručně.
-4. Napoprvé si iPhone vyžádá povolení k přístupu do **Kalendáře** a k **odesílání zpráv**. Obojí povolte.
-5. Zkontrolujte, že zpráva dorazí a že je v ní správný čas.
-6. Testovací termín smažte.
+> **Důležité:** Ruční spuštění neodešle zprávu pouze testovacímu termínu. Zkratka projde **všechny zítřejší termíny v právě vybraném kalendáři** a odešle zprávu každému, u kterého najde telefonní číslo.
+
+> **Důležité:** Zkratka si nepamatuje, komu už zprávu poslala. Každé další ruční nebo automatické spuštění může stejné připomínky odeslat znovu.
+
+### Bezpečný test — v prázdném testovacím kalendáři
+
+Tohle je doporučený postup. Testujete v kalendáři, ve kterém není žádný klient, takže nikomu nemůžete napsat omylem.
+
+1. **Na dobu testu vypněte denní automatizaci.** Otevřete **Zkratky → Automatizace**, klepněte na svou automatizaci a vypněte ji.
+2. V aplikaci **Kalendář** vytvořte nebo si vyberte **prázdný kalendář jen na test** — třeba s názvem **SMS test**. Nesmí v něm být žádné termíny klientů. (Nový kalendář se zakládá v aplikaci Kalendář v seznamu kalendářů; přesné názvy tlačítek se mezi verzemi iOS liší.)
+3. Otevřete zkratku (**Zkratky → ⋯**) a v jejím **prvním řádku** dočasně vyberte tento testovací kalendář.
+4. V testovacím kalendáři vytvořte **jeden jediný** termín na **zítřek**.
+5. Napište do něj telefonní číslo, které máte pod kontrolou — své druhé číslo, nebo číslo někoho z rodiny, kdo o testu ví:
+   - v **Google Kalendáři** do pole **Popis** / **Přidat popis**;
+   - v **Apple Kalendáři** do pole **Poznámky**.
+6. Zkratku spusťte ručně **právě jednou**.
+7. Napoprvé si iPhone vyžádá povolení k přístupu do **Kalendáře** a k **odesílání zpráv**. Obojí povolte.
+8. Zkontrolujte, že zpráva dorazí a že je v ní správný čas termínu.
+9. Testovací termín smažte.
+10. Ve zkratce **přepněte kalendář zpět** na skutečný kalendář s termíny klientů.
+11. Denní automatizaci zase **zapněte**.
+
+### Když nechcete zakládat testovací kalendář
+
+Otestovat to jde i ve svém běžném vybraném kalendáři, ale **jen tehdy, když si předem ověříte, že žádný jiný zítřejší termín v něm neobsahuje telefonní číslo**.
+
+- Projděte v kalendáři **všechny zítřejší termíny** a podívejte se u nich do **Popisu** (v Apple Kalendáři do **Poznámek**).
+- Pokud u některého skutečného termínu klienta číslo už je, **zkratku v tomto kalendáři ručně nespouštějte**. Tomu klientovi by zpráva odešla hned.
+- Smazání testovacího termínu **už odeslané zprávy nevrátí**.
 
 > Odeslání testovací zprávy stojí stejně jako každá jiná SMS podle vašeho tarifu.
 
@@ -329,7 +358,7 @@ Zkratka se pak vrátí a zopakuje stejné kroky pro další termín, dokud nezpr
 
 **Ptá se na povolení, nebo se nic neděje**
 
-- Spusťte zkratku jednou ručně (krok 6). Při ručním spuštění se chyby zobrazí na obrazovce.
+- Spusťte zkratku jednou ručně — ale **až podle bezpečnostních pravidel v kroku 6**. Ruční spuštění projde všechny zítřejší termíny ve vybraném kalendáři a může rozeslat zprávy všem klientům, u kterých najde číslo; nejbezpečnější je proto použít prázdný testovací kalendář. Při ručním spuštění se chyby zobrazí na obrazovce.
 - Povolte přístup ke **Kalendáři** a odesílání zpráv. Později to zkontrolujete v **Nastavení → Soukromí a zabezpečení → Kalendáře**.
 
 **Na jedno číslo se zpráva neodešle**
@@ -346,7 +375,14 @@ Váš operátor účtuje každou SMS podle vašeho tarifu, přesně jako byste j
 
 ## Soukromí
 
-Tento projekt neprovozuje žádný vlastní server. Nestojí za ním žádný účet, databáze, analytika ani placená služba. Vaše termíny a telefonní čísla klientů zůstávají ve vašem telefonu a čte je tam aplikace Zkratky.
+Tento projekt neprovozuje žádný vlastní server, účet, databázi ani analytiku. Samotná zkratka běží na vašem iPhonu a čte události, které má iPhone zpřístupněné v aplikaci Kalendář.
+
+Kde jsou přitom uložená samotná data termínů, záleží na tom, jaký kalendářový účet používáte:
+
+- **Používáte-li Google Kalendář:** data termínu, včetně telefonního čísla napsaného do pole **Popis**, ukládá a synchronizuje váš účet Google podle podmínek společnosti Google. Po připojení účtu Google k iPhonu takový termín zobrazuje i aplikace Kalendář a zkratka vidí text z Popisu jako **Poznámky** dané události. Samo o sobě to neznamená, že se termín zkopíruje do vašeho kalendáře na iCloudu.
+- **Používáte-li iCloudový kalendář:** data termínu ukládá a synchronizuje iCloud podle podmínek společnosti Apple.
+
+Tento projekt tato data nepřijímá ani neukládá na žádný svůj server. Používáte-li Google Kalendář nebo iCloud, data současně zpracovává a synchronizuje příslušná služba podle svých vlastních podmínek.
 
 Zkratka se šíří přes oficiální sdílení Zkratek přes iCloud od Applu, takže její stažení je požadavek na servery Applu podle podmínek společnosti Apple. Odeslání SMS jde přes vašeho operátora jako každá jiná zpráva.
 

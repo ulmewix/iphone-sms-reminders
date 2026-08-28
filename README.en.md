@@ -243,18 +243,47 @@ Installing the shortcut does **not** make it run by itself. You have to set the 
 
 The shortcut always sends reminders for **tomorrow's** appointments. So pick a time today when it suits your clients to hear from you about tomorrow — early afternoon or early evening usually works well. **14:30** is only an example.
 
+> **Watch out for duplicate messages.** The shortcut keeps no record of who it has already sent a reminder to.
+>
+> - Create **only one** daily automation for it.
+> - Once the automation has run that day, **do not run the shortcut by hand again** — unless you really do want a second message to go out.
+> - Every additional run can send reminders for the same tomorrow appointments all over again.
+
 ---
 
 ## STEP 6 — Test it
 
-Test it once on yourself before you let it message clients.
+Test it once on yourself before you let it message clients. Read both warnings below first, then test.
 
-1. In your calendar, create a test appointment for **tomorrow**, in the calendar you chose in Step 3.
-2. In its **Notes**, put a phone number you can check yourself — your own second number, or a family member who knows about the test.
-3. Open the **Shortcuts** app and tap the reminder shortcut once to run it by hand.
-4. The first time, your iPhone will ask for permission to use your **Calendar** and to **send messages**. Allow both.
-5. Check that the message arrives, and that the time in it is correct.
-6. Delete the test appointment.
+> **Important:** A manual run does not process only your test appointment. It checks **every appointment for tomorrow in the calendar currently selected inside the Shortcut** and sends a message for every appointment containing a recognised phone number.
+
+> **Important:** The shortcut does not remember which reminders it has already sent. Every additional manual or automatic run may send the same reminders again.
+
+### The safe test — using an empty test calendar
+
+This is the recommended way. You test in a calendar that holds no clients, so you cannot message anyone by accident.
+
+1. **Turn the daily automation off while you test.** Open **Shortcuts → Automation**, tap your automation and switch it off.
+2. In the **Calendar** app, create or pick an **empty calendar used only for the test** — for example one called **SMS test**. It must contain no client appointments. (A new calendar is created from the calendar list in the Calendar app; the exact button names differ between iOS versions.)
+3. Open the shortcut (**Shortcuts → ⋯**) and temporarily select that test calendar in its **first action**.
+4. Create **exactly one** appointment for **tomorrow** in the test calendar.
+5. Put in a phone number you control — your own second number, or a family member who knows about the test:
+   - in **Google Calendar**, the **Description** / **Add description** field;
+   - in **Apple Calendar**, the **Notes** field.
+6. Run the shortcut by hand **exactly once**.
+7. The first time, your iPhone will ask for permission to use your **Calendar** and to **send messages**. Allow both.
+8. Check that the message arrives, and that the appointment time in it is correct.
+9. Delete the test appointment.
+10. In the shortcut, **switch the calendar back** to your real client calendar.
+11. **Switch the daily automation back on.**
+
+### If you would rather not create a test calendar
+
+You may test in your normal selected calendar, but **only after checking that no other appointment for tomorrow contains a phone number**.
+
+- Go through **every appointment for tomorrow** in that calendar and look at its **Description** (its **Notes** in Apple Calendar).
+- If a real client appointment for tomorrow already contains a number, **do not run the shortcut by hand using that calendar**. That client would be messaged straight away.
+- Deleting the test appointment afterwards **does not undo messages that have already been sent**.
 
 > Sending a test message costs the same as any other text message from your tariff.
 
@@ -418,7 +447,7 @@ The shortcut then goes back and repeats the same steps for the next appointment,
 
 **It asks for permission, or nothing happens**
 
-- Run the shortcut by hand once (Step 6). Errors appear on screen when you run it yourself.
+- Run the shortcut by hand once — but **follow the safety rules in Step 6 first**. A manual run goes through every appointment for tomorrow in the selected calendar and may message every client it finds a number for, so the safest way is to use an empty test calendar. Errors appear on screen when you run it yourself.
 - Allow **Calendar** access and message sending when asked. You can check it later in **Settings → Privacy & Security → Calendars**.
 
 **A message will not send to one number**
@@ -435,7 +464,14 @@ Your mobile operator charges for each text message according to your tariff, exa
 
 ## Privacy
 
-This project runs no server of its own. There is no account, no database, no analytics and no subscription service behind it. Your appointments and your clients' phone numbers stay in your phone and are read there by the Shortcuts app.
+This project runs no server of its own. There is no account, no database, no analytics and no subscription service behind it. The shortcut's own processing runs locally on your iPhone, on the events the iPhone makes available in the Calendar app.
+
+Where the appointment data itself is stored depends on which calendar account you use:
+
+- **If you use Google Calendar:** the appointment data, including a phone number typed into the **Description**, stays associated with your Google account and is stored and synchronised through it under Google's own terms. Once that account is connected to your iPhone, the Calendar app can display the appointment and make it available to Shortcuts, and the Google Description appears to the shortcut as the event's **Notes**. Displaying a Google calendar in Apple Calendar does not by itself copy the event into your iCloud calendar.
+- **If you use an iCloud calendar:** the appointment data is stored and synchronised through Apple's iCloud service under Apple's own terms.
+
+This project itself does not receive the appointment data or store it on any server of its own. If you use Google Calendar or iCloud, that service also processes and synchronises the data under its own terms.
 
 The shortcut is distributed through Apple's official iCloud sharing for Shortcuts, so downloading it is a request to Apple's servers under Apple's own terms. Sending a text message goes through your mobile operator like any other message.
 
