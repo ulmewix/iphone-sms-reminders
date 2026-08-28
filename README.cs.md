@@ -82,7 +82,9 @@ Pokud si klienty objednáváte v **Google Kalendáři**, nemusíte nic přesouva
 
 ## KROK 4 — Napište do termínu telefon klienta
 
-Telefonní číslo patří do pole **Poznámky** u termínu.
+Zkratka čte telefonní číslo z **Poznámek** u termínu v Apple Kalendáři. Kam ho napíšete, záleží na tom, ve které aplikaci si klienty objednáváte.
+
+**Pokud objednáváte v aplikaci Kalendář na iPhonu**
 
 1. Otevřete termín v kalendáři.
 2. Klepněte na **Upravit**.
@@ -90,7 +92,26 @@ Telefonní číslo patří do pole **Poznámky** u termínu.
 4. Napište telefonní číslo klienta.
 5. Termín uložte.
 
-V poznámkách může být i jiný text, před číslem nebo za ním. Například:
+**Pokud objednáváte v Google Kalendáři**
+
+Google Kalendář žádné pole s názvem Poznámky nemá. Stejné pole se tam jmenuje **Popis** — u prázdného termínu se zobrazuje jako **Přidat popis**.
+
+1. Otevřete termín v Google Kalendáři.
+2. Klepněte na **Upravit**.
+3. Najděte pole **Popis** (nebo **Přidat popis**).
+4. Napište telefonní číslo klienta.
+5. Termín uložte.
+
+Jakmile se kalendář synchronizuje s iPhonem, text napsaný do Popisu se v Apple Kalendáři zobrazí jako **Poznámky** daného termínu — a právě odtud ho zkratka načítá.
+
+| Kam číslo napíšete | Jak se pole jmenuje |
+|---|---|
+| Google Kalendář | **Popis** / **Přidat popis** |
+| Apple Kalendář | **Poznámky** |
+
+V obou aplikacích jde o tentýž text. Nemusíte ho psát dvakrát.
+
+V tomto poli může být i jiný text, před číslem nebo za ním. Například:
 
 ```
 Klientka chce kratší nehty.
