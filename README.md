@@ -4,6 +4,8 @@ Automatic appointment SMS reminders using Apple Calendar, Shortcuts and Messages
 
 Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpráv. Zdarma, bez předplatného a bez externí služby provozované tímto projektem.
 
+🌐 **Web:** https://ulmewix.github.io/iphone-sms-reminders/
+
 ---
 
 ### 🇬🇧 English
