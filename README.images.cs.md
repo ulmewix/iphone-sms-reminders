@@ -90,3 +90,5 @@ Nakonec si v záložce **Automatizace** nastavte denní spuštění: čas, **ka�
 - Ve Zkratce je vybraný **správný kalendář** ze správného účtu.
 
 Než se na to spolehnete, vytvořte si zkušební termín na zítřek s vlastním číslem a zkratku jednou spusťte ručně.
+
+> **Důležité:** Ruční spuštění projde všechny zítřejší termíny ve vybraném kalendáři a odešle SMS každému, u koho najde telefonní číslo — ne jen tomu testovacímu. Pro bezpečný test buď dočasně přepněte zkratku na prázdný testovací kalendář, nebo si předem ověřte, že žádný jiný zítřejší termín číslo v poznámkách nemá. Podrobný postup bezpečného testu je v [kroku 6 českého návodu](README.cs.md).
