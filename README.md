@@ -6,20 +6,15 @@ Automatické SMS připomínky termínů pomocí Apple Kalendáře, Zkratek a Zpr
 
 ---
 
-## [Install the English Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)
-
-## [Nainstalovat českou zkratku](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
-
----
-
 ### 🇬🇧 English
-
+**iCloud:** [Install the Shortcut](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)  
+**File:** [Install the Shortcut](shortcuts/sms-reminder-en.shortcut?raw=1)  
 [Open the English setup guide →](README.en.md)
 
 ### 🇨🇿 Česky
-
-[Otevřít český návod →](README.cs.md)
-
+**iCloud:** [Nainstalovat zkratku](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)  
+**Soubor:** [Nainstalovat zkratku](shortcuts/sms-reminder-cs.shortcut?raw=1)  
+[Otevřít český návod →](README.cs.md)  
 [Obrázkový návod →](README.images.cs.md)
 
 ![SMS Reminder shortcut workflow overview](docs/images/visual-guide/sms-reminder-shortcut-overall.png)

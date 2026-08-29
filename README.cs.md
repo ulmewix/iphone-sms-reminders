@@ -19,7 +19,7 @@ Do události v kalendáři napíšete telefon klienta. Váš iPhone se každý d
 
 ---
 
-## ➜ [Nainstalovat zkratku](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)
+## ➜ [Nainstalovat zkratku](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)
 
 Odkaz otevřete **na iPhonu**. Potom projděte šest kroků níže — zabere to asi deset minut.
 
@@ -34,7 +34,7 @@ Odkaz otevřete **na iPhonu**. Potom projděte šest kroků níže — zabere to
 
 ## KROK 1 — Nainstalujte zkratku
 
-1. Na iPhonu klepněte na tento odkaz: **[Nainstalovat zkratku](https://www.icloud.com/shortcuts/d9af7a261a63499ca4d2e213eb443f78)**
+1. Na iPhonu klepněte na tento odkaz: **[Nainstalovat zkratku](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)**
 2. Otevře se aplikace **Zkratky** a zobrazí zkratku.
 3. Dole klepněte na **Přidat zkratku**.
 4. A je to. Zkratka je ve vašem telefonu.
