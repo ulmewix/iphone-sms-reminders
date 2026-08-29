@@ -19,7 +19,7 @@ You write your client's phone number into the appointment in your calendar. Ever
 
 ---
 
-## ➜ [Install the Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)
+## ➜ [Install the Shortcut](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)
 
 Open that link **on your iPhone**. Then follow the six steps below — they take about ten minutes.
 
@@ -32,7 +32,7 @@ Open that link **on your iPhone**. Then follow the six steps below — they take
 
 ## STEP 1 — Install the Shortcut
 
-1. On your iPhone, tap this link: **[Install the Shortcut](https://www.icloud.com/shortcuts/87c6bef9a3f341708ced1697119112d1)**
+1. On your iPhone, tap this link: **[Install the Shortcut](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)**
 2. The **Shortcuts** app opens and shows the shortcut, named **SMS - Reminder - eng**.
 3. Tap **Add Shortcut** at the bottom.
 4. That's it. The shortcut is now in your phone.
