@@ -19,7 +19,9 @@ You write your client's phone number into the appointment in your calendar. Ever
 
 ---
 
-## ➜ [Install the Shortcut](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)
+## ➜ [Import into Shortcuts](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)
+
+> **No app installation is required.** The shortcut is simply imported into Apple's built-in Shortcuts app on your iPhone.
 
 Open that link **on your iPhone**. Then follow the six steps below — they take about ten minutes.
 
@@ -30,9 +32,9 @@ Open that link **on your iPhone**. Then follow the six steps below — they take
 
 ---
 
-## STEP 1 — Install the Shortcut
+## STEP 1 — Import the Shortcut into Shortcuts
 
-1. On your iPhone, tap this link: **[Install the Shortcut](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)**
+1. On your iPhone, tap this link: **[Import into Shortcuts](https://www.icloud.com/shortcuts/bb652d846cfe4fb9917d2c712ed3f062)**
 2. The **Shortcuts** app opens and shows the shortcut, named **SMS - Reminder - eng**.
 3. Tap **Add Shortcut** at the bottom.
 4. That's it. The shortcut is now in your phone.
@@ -68,7 +70,7 @@ If you book your clients in **Google Calendar**, you do **not** have to move any
 **Do not skip this step.** The shortcut arrives with someone else's calendar selected. Until you change it, it will not find your appointments.
 
 1. Open the **Shortcuts** app.
-2. On the **Shortcuts** tab, find the reminder shortcut you installed in Step 1.
+2. On the **Shortcuts** tab, find the reminder shortcut you imported in Step 1.
 3. Tap the **three dots (⋯)** in the corner of it. The shortcut opens for editing.
 4. Look at the **very first line at the top**. It says it will find calendar events.
 5. In that first line, tap the **calendar name**.
@@ -156,7 +158,7 @@ Type the number into the same field you already use, as described above in this 
 
 ## STEP 5 — Set it to run automatically every day
 
-Installing the shortcut does **not** make it run by itself. You have to set the daily time. This is done once.
+Importing the shortcut does **not** make it run automatically. You have to set the daily time. This is done once.
 
 1. Open the **Shortcuts** app.
 2. Tap **Automation** at the bottom.

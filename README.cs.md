@@ -19,7 +19,9 @@ Do události v kalendáři napíšete telefon klienta. Váš iPhone se každý d
 
 ---
 
-## ➜ [Nainstalovat zkratku](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)
+## ➜ [Importovat do Zkratek](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)
+
+> **Není potřeba instalovat žádnou aplikaci.** Zkratka se pouze importuje do vestavěné aplikace Zkratky na iPhonu.
 
 Odkaz otevřete **na iPhonu**. Potom projděte šest kroků níže — zabere to asi deset minut.
 
@@ -32,9 +34,9 @@ Odkaz otevřete **na iPhonu**. Potom projděte šest kroků níže — zabere to
 
 ---
 
-## KROK 1 — Nainstalujte zkratku
+## KROK 1 — Importujte zkratku do aplikace Zkratky
 
-1. Na iPhonu klepněte na tento odkaz: **[Nainstalovat zkratku](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)**
+1. Na iPhonu klepněte na tento odkaz: **[Importovat do Zkratek](https://www.icloud.com/shortcuts/00d849c7f09643b99df180baa0a9c685)**
 2. Otevře se aplikace **Zkratky** a zobrazí zkratku.
 3. Dole klepněte na **Přidat zkratku**.
 4. A je to. Zkratka je ve vašem telefonu.
@@ -70,7 +72,7 @@ Pokud si klienty objednáváte v **Google Kalendáři**, nemusíte nic přesouva
 **Tento krok nepřeskakujte.** Zkratka přichází s vybraným cizím kalendářem. Dokud ho nezměníte, vaše termíny nenajde.
 
 1. Otevřete aplikaci **Zkratky**.
-2. Na panelu **Zkratky** najděte zkratku pro připomínky, kterou jste nainstalovali v kroku 1.
+2. Na panelu **Zkratky** najděte zkratku pro připomínky, kterou jste importovali v kroku 1.
 3. Klepněte na **tři tečky (⋯)** v jejím rohu. Zkratka se otevře k úpravě.
 4. Podívejte se na **úplně první řádek nahoře**. Píše se v něm, že vyhledá události v kalendáři.
 5. V tomto prvním řádku klepněte na **název kalendáře**.
@@ -134,7 +136,7 @@ Nejbezpečnější zápis čísla je s předvolbou a mezerami:
 
 ## KROK 5 — Nastavte automatické denní spuštění
 
-Samotná instalace zkratky **nezajistí** její spouštění. Denní čas musíte nastavit vy. Dělá se to jednou.
+Samotný import zkratky **nezajistí** její automatické spouštění. Denní čas musíte nastavit vy. Dělá se to jednou.
 
 1. Otevřete aplikaci **Zkratky**.
 2. Dole klepněte na **Automatizace**.
